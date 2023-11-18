@@ -1,0 +1,70 @@
+{
+    "relationship_type": "side_effect_of",
+    "active_form": {
+      "alternative": "has_side_effect",
+      "definition": "có tác dụng phụ là",
+      "switch": true,
+      "examples": [
+        {
+          "query": "tác dụng phụ của thuốc metformin là gì",
+          "entities": [
+            "thuốc metformin"
+          ],
+          "outputs": [
+            [
+              "thuốc metformin",
+              "has_side_effect",
+              ""
+            ]
+          ]
+        },
+        {
+          "query": "metformin có tác dụng phụ là buồn nôn đúng không",
+          "entities": [
+            "metformin",
+            "buồn nôn"
+          ],
+          "outputs": [
+            [
+              "metformin",
+              "has_side_effect",
+              "buồn nôn"
+            ]
+          ]
+        }
+      ]
+    },
+    "passive_form": {
+      "alternative": "side_effect_of",
+      "definition": "là tác dụng phụ của",
+      "examples": [
+        {
+          "query": "chán ăn là tác dụng phụ của cái gì",
+          "entities": [
+            "chán ăn"
+          ],
+          "outputs": [
+            [
+              "chán ăn",
+              "side_effect_of",
+              ""
+            ]
+          ]
+        },
+        {
+          "query": "tiêu chảy có phải là tác dụng phụ của metformin",
+          "entities": [
+            "tiêu chảy",
+            "metformin"
+          ],
+          "outputs": [
+            [
+              "tiêu chảy",
+              "side_effect_of",
+              "metformin"
+            ]
+          ]
+        }
+      ]
+    }
+  }
