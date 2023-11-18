@@ -1,0 +1,5 @@
+- Thiết kế  function với tham số là đường dẫn tới file ctabus.csv trong folder data
+- Trả về 1 list của các tuples (1 function), dicts (1 function)
+
+- Tuples: [(4 giá trị của 1 row),...]
+- Dict: [{4 cặp key-value của từng row}, ...] :sử dụng header và zip() khi lặp
